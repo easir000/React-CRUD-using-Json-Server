@@ -32,11 +32,11 @@ The page will reload if you make edits.
 
 //Json Server Start//
 
-json-server
-json-server --watch src/Database/db.json --host 127.0.0.1 --port 3003
-dev
-concurrently "npm start" "npm run json-server"
-build
-react-scripts build
-eject
+json-server<br>
+json-server --watch src/Database/db.json --host 127.0.0.1 --port 3003<br>
+dev<br>
+concurrently "npm start" "npm run json-server"<br>
+build<br>
+react-scripts build<br>
+eject<br>
 react-scripts eject
