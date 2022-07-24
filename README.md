@@ -29,3 +29,14 @@ Compiles and hot-reloads for development
 Open http://localhost:3000 to view it in the browser.
 
 The page will reload if you make edits.
+
+//Json Server Start//
+
+json-server
+    json-server --watch src/Database/db.json --host 127.0.0.1 --port 3003
+  dev
+    concurrently "npm start" "npm run json-server"
+  build
+    react-scripts build
+  eject
+    react-scripts eject
